@@ -13,6 +13,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import { MdOutlineEmail } from "react-icons/md";
 import { LuSendHorizonal } from "react-icons/lu";
+import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../Images/ieslogo.png";
 import headerImg from "../Images/header-img.jpg";
 import eventImg from "../Images/event-img.jpg";
@@ -26,6 +27,8 @@ import teacher4 from "../Images/teacher4.jpg";
 
 const Header = () => {
   const [tab, setTab] = useState("A");
+
+  const [isOpen, setIsOpen] = useState(false);
 
   const [email, setEmail] = useState("");
   const [emailArray, setEmailArray] = useState([]);
@@ -43,6 +46,10 @@ const Header = () => {
     }
   };
 
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
       <div className="yellowtop">
@@ -52,6 +59,10 @@ const Header = () => {
         <Link to="" className="brand">
           <img src={logo} className="logo" alt="logo" /> IVAN ELITE SCHOOL
         </Link>
+        <span className="toggler" onClick={toggleNavbar}>
+          {" "}
+          <GiHamburgerMenu />
+        </span>
         <ul className="nav-list">
           <li className="nav-item">
             <Link to="/" className="nav-link">
@@ -418,7 +429,7 @@ const Header = () => {
             <img src={teacher4} alt="" className="staff-profile" />
             <div className="staff-name-div">
               <h2>
-                <span className="staff-name">Mrs Etiko</span>
+                <span className="staff-name">Mrs Obikaonor</span>
               </h2>
             </div>
           </div>

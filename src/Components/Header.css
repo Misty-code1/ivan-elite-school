@@ -6,7 +6,7 @@
 }
 
 .yellowtop {
-  padding: 30px 90px;
+  /* padding: 30px 90px; */
   background: #f7e945;
   height: 7vh;
 }
@@ -44,6 +44,11 @@
   width: 60px;
   top: 8px;
   left: 25px;
+}
+
+.toggler {
+  color: #000;
+  width: 80px;
 }
 
 .nav-list {
@@ -715,4 +720,539 @@
   padding-top: 8px;
   font-size: 13px;
   color: #f7e945;
+}
+
+@media (max-width: 578px) {
+  body {
+    margin: 0;
+    padding: 0 0;
+    box-sizing: border-box;
+  }
+
+  .yellowtop {
+    display: none;
+  }
+
+  .navbar {
+    position: relative;
+    padding-bottom: 15px;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    width: 60px;
+    top: 0;
+  }
+
+  .slogan {
+    font-size: 12px;
+    position: absolute;
+    transform: translateY(-15px);
+  }
+
+  .toggler {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .brand {
+    font-size: 16px;
+    margin: 19px 0;
+    padding: 0;
+  }
+
+  .home {
+    position: relative;
+    padding: 0;
+    /* margin: 5px 0; */
+    height: 40vh;
+  }
+
+  .pix {
+    height: 230px;
+  }
+
+  .center-logo {
+    position: absolute;
+    transform: translateY(52px);
+    right: 110px;
+    width: 200px;
+  }
+
+  .school-event {
+    display: flex;
+    width: 100%;
+    /* margin: 10px; */
+  }
+
+  .event,
+  .portal,
+  .life {
+    width: 31%;
+    height: 160px;
+    margin: 10px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 55px;
+    line-height: 1.7rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .about-us {
+    width: 100%;
+    height: 65vh;
+    margin: 0;
+    padding-top: 8px;
+  }
+
+  .logo-div {
+    display: none;
+  }
+
+  .about {
+    width: 100%;
+    padding: 25px 20px;
+    margin: 0;
+  }
+  .about h2 {
+    font-size: 30px;
+    padding-top: 0;
+  }
+
+  .about-text {
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .amv {
+    font-size: 16px;
+    gap: 25px;
+    padding-top: 25px;
+  }
+
+  .amv::before {
+    position: absolute;
+    content: "";
+    top: 67px;
+    width: 405px;
+    height: 1px;
+    background: #286e1c;
+  }
+
+  .mission-section {
+    display: block;
+    width: 100%;
+    height: 75vh;
+    padding: 0 10px;
+  }
+
+  .mission-div {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .vision-div {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .h1-mission {
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 8px;
+  }
+
+  .mission {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  .mission-sub-title {
+    padding-top: 25px;
+    font-size: 20px;
+  }
+
+  .director-msg-div {
+    width: 100%;
+    height: 60vh;
+    padding: 10px 10px;
+  }
+
+  .msg-div {
+    width: 100%;
+  }
+  .dirm {
+    padding-top: 15px;
+    font-size: 15px;
+  }
+
+  .dirmp {
+    font-size: 14px;
+    padding-top: 14px;
+  }
+
+  .dirt {
+    padding-top: 15px;
+    line-height: 1.7rem;
+    font-size: 18px;
+  }
+
+  .msg-images {
+    display: none;
+  }
+
+  .dir-name {
+    padding-top: 18px;
+    font-size: 18px;
+  }
+
+  .learning {
+    width: 100%;
+    padding-top: 10px;
+    height: 165vh;
+  }
+
+  .learning-head {
+    width: 100%;
+    height: 20vh;
+    padding: 0 10px;
+  }
+
+  .learning-head h1 {
+    padding-top: 22px;
+    font-family: cursive;
+    color: #f7e945;
+    font-size: 25px;
+  }
+
+  .learning-head p {
+    font-size: 16px;
+  }
+
+  .learning-text {
+    padding: 0 30px;
+  }
+
+  .learning-text h1 {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .learning-text p {
+    font-size: 14px;
+  }
+
+  .cards {
+    width: 100%;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .course-img {
+    width: 100%;
+    height: 100px;
+  }
+
+  .course-text {
+    font-size: 17px;
+  }
+
+  .course {
+    font-size: 17px;
+  }
+
+  .course-text {
+    font-size: 14px;
+    padding: 6px 0px 0px 0pxx;
+  }
+
+  .why-chose-us {
+    width: 100%;
+    height: 165vh;
+  }
+
+  .why-h2 {
+    padding-top: 25px;
+    font-size: 28px;
+  }
+
+  .why-text {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  .why-row {
+    display: block;
+    padding: 0 20px;
+  }
+
+  .why-grid {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px 5px;
+  }
+
+  .people-icon {
+    width: 60px;
+  }
+
+  .experience {
+    font-size: 16px;
+  }
+
+  .experience-text {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 25px;
+  }
+
+  .testimonial-div {
+    width: 100%;
+    height: 65vh;
+  }
+
+  .testimonial {
+    font-size: 21px;
+  }
+
+  .title {
+    font-size: 27px;
+  }
+
+  .review-box {
+    display: block;
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .review-img {
+    display: none;
+  }
+
+  .review-text {
+    position: relative;
+    width: 100%;
+  }
+
+  .review-icon {
+    width: 35px;
+  }
+
+  .review-para {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .user-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    left: 260px;
+    bottom: -50px;
+  }
+
+  .user-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .review-words {
+    width: 100%;
+  }
+
+  .username {
+    font-size: 14px;
+  }
+
+  .ivan-staff {
+    width: 100%;
+    height: 85vh;
+    padding: 10px 30px;
+  }
+
+  .staff-row {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    padding-top: 15px;
+  }
+
+  .meet-staff {
+    font-size: 25px;
+  }
+
+  .staff-card {
+    padding: 10px 0;
+    width: 45%;
+  }
+
+  .staff-profile {
+    height: 160px;
+    width: 180px;
+    border-radius: 7px;
+  }
+
+  .staff-name {
+    padding: 6px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 10px;
+  }
+
+  .news-letter {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .nl-top {
+    height: 30vh;
+    padding-bottom: 15px;
+  }
+
+  .nl-heading {
+    font-size: 20px;
+  }
+
+  .nl-latest {
+    font-size: 24px;
+  }
+
+  .nl-input {
+    width: 65%;
+    height: 30px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding-left: 80px;
+    border-radius: 8px;
+  }
+
+  .nl-input::placeholder {
+    opacity: 0.3;
+    font-size: 14px;
+    color: #000;
+  }
+
+  .nl-input:focus {
+    border: 1px dotted #286e1c;
+  }
+
+  .left-icon {
+    position: absolute;
+    color: #286e1c;
+    font-size: 20px;
+    left: 6.5rem;
+    top: 12px;
+  }
+
+  .submit-btn {
+    background: transparent;
+    border: none;
+    position: absolute;
+    padding: 20px 30px;
+  }
+
+  .right-icon {
+    position: absolute;
+    color: #286e1c;
+    font-size: 20px;
+    cursor: pointer;
+    right: 80px;
+    top: 5px;
+  }
+
+  .nl-middle {
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .nl-title {
+    font-size: 30px;
+    padding: 40 0px;
+  }
+
+  .nl-para {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  .enroll-btn {
+    text-decoration: none;
+    padding: 6px 30px;
+    background: #f7e945;
+    border-radius: 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .nl-footer {
+    text-align: center;
+    width: 100%;
+    height: 25vh;
+    background: #286e1c;
+  }
+
+  .top-footer {
+    padding-top: 30px;
+  }
+
+  .footer-icons {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: #f7e945;
+    font-size: 20px;
+    gap: 22px;
+  }
+
+  .footer-icons::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    top: 38px;
+    width: 350px;
+    background: #f7e945;
+  }
+
+  .down-footer {
+    padding-top: 17px;
+  }
+
+  .ivan-cp {
+    font-size: 11px;
+    color: #f7e945;
+    font-weight: 500;
+  }
+
+  .copyright {
+    padding-top: 8px;
+    font-size: 10px;
+    color: #f7e945;
+  }
 }
