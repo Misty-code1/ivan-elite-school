@@ -736,7 +736,7 @@
   .navbar {
     position: relative;
     padding-bottom: 15px;
-    width: 100%;
+    width: auto;
   }
 
   .logo {
@@ -766,10 +766,10 @@
   }
 
   .home {
+    width: auto;
     position: relative;
     padding: 0;
-    /* margin: 5px 0; */
-    height: 40vh;
+    height: 21vh;
   }
 
   .pix {
@@ -786,6 +786,7 @@
   .school-event {
     display: flex;
     width: 100%;
+    height: auto;
     /* margin: 10px; */
   }
 
@@ -809,7 +810,7 @@
 
   .about-us {
     width: 100%;
-    height: 65vh;
+    height: 33vh;
     margin: 0;
     padding-top: 8px;
   }
@@ -819,10 +820,12 @@
   }
 
   .about {
-    width: 100%;
+    width: auto;
     padding: 25px 20px;
     margin: 0;
+    height: auto;
   }
+
   .about h2 {
     font-size: 30px;
     padding-top: 0;
@@ -851,8 +854,8 @@
 
   .mission-section {
     display: block;
-    width: 100%;
-    height: 75vh;
+    width: auto;
+    height: 37vh;
     padding: 0 10px;
   }
 
@@ -884,8 +887,8 @@
   }
 
   .director-msg-div {
-    width: 100%;
-    height: 60vh;
+    width: auto;
+    height: 28vh;
     padding: 10px 10px;
   }
 
@@ -918,15 +921,15 @@
   }
 
   .learning {
-    width: 100%;
+    width: auto;
     padding-top: 10px;
-    height: 165vh;
+    height: 80vh;
   }
 
   .learning-head {
     width: 100%;
-    height: 20vh;
-    padding: 0 10px;
+    height: 12vh;
+    padding: 18px 10px;
   }
 
   .learning-head h1 {
@@ -989,12 +992,12 @@
   }
 
   .why-chose-us {
-    width: 100%;
-    height: 165vh;
+    width: auto;
+    height: 80vh;
   }
 
   .why-h2 {
-    padding-top: 25px;
+    padding-top: 35px;
     font-size: 28px;
   }
 
@@ -1030,7 +1033,7 @@
 
   .testimonial-div {
     width: 100%;
-    height: 65vh;
+    height: 35vh;
   }
 
   .testimonial {
@@ -1088,7 +1091,7 @@
 
   .ivan-staff {
     width: 100%;
-    height: 85vh;
+    height: 45vh;
     padding: 10px 30px;
   }
 
@@ -1122,12 +1125,12 @@
   }
 
   .news-letter {
-    width: 100%;
-    height: 90vh;
+    width: auto;
+    height: 53vh;
   }
 
   .nl-top {
-    height: 30vh;
+    height: 15vh;
     padding-bottom: 15px;
   }
 
@@ -1186,7 +1189,7 @@
   .nl-middle {
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 23vh;
   }
 
   .nl-title {
@@ -1212,7 +1215,7 @@
   .nl-footer {
     text-align: center;
     width: 100%;
-    height: 25vh;
+    height: 15vh;
     background: #286e1c;
   }
 
