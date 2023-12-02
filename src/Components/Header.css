@@ -808,7 +808,7 @@
 
   .about-us {
     width: 100%;
-    height: 50vh;
+    height: 48vh;
     margin: 0;
     padding-top: 4px;
   }
@@ -853,8 +853,8 @@
   .mission-section {
     display: block;
     width: auto;
-    height: 53vh;
-    padding: 0 10px;
+    height: auto;
+    padding: 0 10px 40px 0;
   }
 
   .mission-div {
@@ -886,8 +886,8 @@
 
   .director-msg-div {
     width: auto;
-    height: 45vh;
-    padding: 10px 10px;
+    height: auto;
+    padding: 10px 10px 30px 10px;
   }
 
   .msg-div {
@@ -920,8 +920,9 @@
 
   .learning {
     width: auto;
-    padding-top: 8px;
-    height: 120vh;
+    padding: 8px 0 30px 0;
+    height: auto;
+
   }
 
   .learning-head {
@@ -991,7 +992,8 @@
 
   .why-chose-us {
     width: auto;
-    height: 130vh;
+    height: auto;
+    padding: 0 0 30px 0;
   }
 
   .why-h2 {
@@ -1031,7 +1033,8 @@
 
   .testimonial-div {
     width: 100%;
-    height: 51vh;
+    height: auto;
+    padding: 0 0 90px 0;
   }
 
   .testimonial {
@@ -1089,8 +1092,8 @@
 
   .ivan-staff {
     width: 100%;
-    height: 65vh;
-    padding: 10px 20px;
+    height: auto;
+    padding: 10px 20px 30px 20px;
   }
 
   .staff-row {
@@ -1192,7 +1195,7 @@
 
   .nl-title {
     font-size: 30px;
-    padding: 40px 0 0 0;
+    padding: 40px 0 0;
   }
 
   .nl-para {
