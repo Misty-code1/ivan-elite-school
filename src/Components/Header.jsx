@@ -52,9 +52,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="yellowtop">
-        {/* <marquee behavior="scroll" direction="left" > Hello, Welcome to IES!!</marquee> */}
-      </div>
+      <div className="yellowtop"></div>
       <nav className="navbar">
         <Link to="" className="brand">
           <img src={logo} className="logo" alt="logo" /> IVAN ELITE SCHOOL

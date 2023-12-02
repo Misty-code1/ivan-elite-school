@@ -6,7 +6,6 @@
 }
 
 .yellowtop {
-  /* padding: 30px 90px; */
   background: #f7e945;
   height: 7vh;
 }
@@ -242,7 +241,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* gap: 50px; */
 }
 
 .msg-div {
@@ -723,9 +721,9 @@
 }
 
 @media (max-width: 578px) {
-  body {
+  * {
     margin: 0;
-    padding: 0 0;
+    padding: 0;
     box-sizing: border-box;
   }
 
@@ -734,6 +732,7 @@
   }
 
   .navbar {
+    width: 100%;
     position: relative;
     padding-bottom: 15px;
     width: auto;
@@ -752,7 +751,7 @@
   }
 
   .toggler {
-    display: block;
+    display: none;
   }
 
   .nav-list {
@@ -766,7 +765,7 @@
   }
 
   .home {
-    width: auto;
+    width: 100%;
     position: relative;
     padding: 0;
     height: 21vh;
@@ -777,28 +776,27 @@
   }
 
   .center-logo {
+    width: 150px;
     position: absolute;
-    transform: translateY(52px);
-    right: 110px;
-    width: 200px;
+    transform: translateY(42px);
+    right: 130px;
   }
 
   .school-event {
     display: flex;
     width: 100%;
     height: auto;
-    /* margin: 10px; */
   }
 
   .event,
   .portal,
   .life {
     width: 31%;
-    height: 160px;
+    height: 150px;
     margin: 10px auto;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
     color: white;
     text-align: center;
@@ -810,9 +808,9 @@
 
   .about-us {
     width: 100%;
-    height: 33vh;
+    height: 50vh;
     margin: 0;
-    padding-top: 8px;
+    padding-top: 4px;
   }
 
   .logo-div {
@@ -823,11 +821,11 @@
     width: auto;
     padding: 25px 20px;
     margin: 0;
-    height: auto;
+    height: 0vh;
   }
 
   .about h2 {
-    font-size: 30px;
+    font-size: 27px;
     padding-top: 0;
   }
 
@@ -838,16 +836,16 @@
   }
 
   .amv {
-    font-size: 16px;
-    gap: 25px;
-    padding-top: 25px;
+    font-size: 14px;
+    gap: 15px;
+    padding-top: 10px 10px;
   }
 
   .amv::before {
     position: absolute;
     content: "";
-    top: 67px;
-    width: 405px;
+    top: 57px;
+    width: 351px;
     height: 1px;
     background: #286e1c;
   }
@@ -855,18 +853,18 @@
   .mission-section {
     display: block;
     width: auto;
-    height: 37vh;
+    height: 53vh;
     padding: 0 10px;
   }
 
   .mission-div {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 20px;
   }
 
   .vision-div {
     width: 100%;
-    padding-top: 40px;
+    padding-top: 20px;
   }
 
   .h1-mission {
@@ -888,7 +886,7 @@
 
   .director-msg-div {
     width: auto;
-    height: 28vh;
+    height: 45vh;
     padding: 10px 10px;
   }
 
@@ -922,14 +920,14 @@
 
   .learning {
     width: auto;
-    padding-top: 10px;
-    height: 80vh;
+    padding-top: 8px;
+    height: 120vh;
   }
 
   .learning-head {
     width: 100%;
-    height: 12vh;
-    padding: 18px 10px;
+    height: 14vh;
+    padding: 10px 10px;
   }
 
   .learning-head h1 {
@@ -959,9 +957,9 @@
   .cards {
     width: 100%;
     display: flex;
-    padding: 20px 30px;
+    padding: 20px 10px;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
   }
 
   .card {
@@ -993,7 +991,7 @@
 
   .why-chose-us {
     width: auto;
-    height: 80vh;
+    height: 130vh;
   }
 
   .why-h2 {
@@ -1033,7 +1031,7 @@
 
   .testimonial-div {
     width: 100%;
-    height: 35vh;
+    height: 51vh;
   }
 
   .testimonial {
@@ -1066,13 +1064,13 @@
   .review-para {
     font-size: 14px;
     padding: 0;
+    padding-bottom: 10px;
   }
 
   .user-box {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    left: 260px;
+    left: 210px;
     bottom: -50px;
   }
 
@@ -1086,20 +1084,20 @@
   }
 
   .username {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   .ivan-staff {
     width: 100%;
-    height: 45vh;
-    padding: 10px 30px;
+    height: 65vh;
+    padding: 10px 20px;
   }
 
   .staff-row {
     display: flex;
-    gap: 5px;
+    gap: 25px;
     justify-content: space-around;
-    padding-top: 15px;
+    padding-top: 10px;
   }
 
   .meet-staff {
@@ -1130,7 +1128,7 @@
   }
 
   .nl-top {
-    height: 15vh;
+    height: 18vh;
     padding-bottom: 15px;
   }
 
@@ -1182,7 +1180,7 @@
     color: #286e1c;
     font-size: 20px;
     cursor: pointer;
-    right: 80px;
+    right: 70px;
     top: 5px;
   }
 
@@ -1194,7 +1192,7 @@
 
   .nl-title {
     font-size: 30px;
-    padding: 40 0px;
+    padding: 40px 0 0 0;
   }
 
   .nl-para {
