@@ -103,7 +103,7 @@
 
 .pix {
   position: relative;
-  width: 400px;
+  width: auto;
   height: 400px;
   margin: auto;
   overflow: hidden;
@@ -111,6 +111,7 @@
 
 .center-logo {
   width: 98%;
+  left: 110px;
   position: absolute;
   top: -55px;
 }
@@ -922,7 +923,6 @@
     width: auto;
     padding: 8px 0 30px 0;
     height: auto;
-
   }
 
   .learning-head {
@@ -1258,5 +1258,467 @@
     padding-top: 8px;
     font-size: 10px;
     color: #f7e945;
+  }
+}
+
+/*SAMSUNG S8 360*/
+@media (max-width: 360px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    width: auto;
+    position: relative;
+    padding-bottom: 10px;
+    width: auto;
+  }
+
+  .logo {
+    position: absolute;
+    width: 60px;
+    top: -1px;
+  }
+
+  .slogan {
+    font-size: 12px;
+    position: absolute;
+    transform: translateY(-11px);
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .home {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    height: 21vh;
+  }
+
+  .pix {
+    height: 230px;
+  }
+
+  .center-logo {
+    width: 140px;
+    position: absolute;
+    transform: translateY(40px);
+    right: 150px;
+  }
+
+  .about-us {
+    width: auto;
+    height: 62vh;
+    margin: 0;
+    padding-top: 4px;
+  }
+
+  .logo-div {
+    display: none;
+  }
+
+  .about {
+    width: auto;
+    padding: 25px 20px;
+    margin: 0;
+    height: 0;
+  }
+
+  .about h2 {
+    font-size: 27px;
+    padding-top: 0;
+  }
+
+  .about-text {
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .amv {
+    font-size: 14px;
+    gap: 15px;
+    padding-top: 10px 10px;
+  }
+
+  .amv::before {
+    position: absolute;
+    content: "";
+    top: 81px;
+    width: 320px;
+    height: 1px;
+    background: #286e1c;
+  }
+
+  .vision-div {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .learning-head {
+    width: 100%;
+    height: 15vh;
+    padding: 10px 10px;
+  }
+
+  .learning-head h1 {
+    padding-top: 20px;
+    font-family: cursive;
+    color: #f7e945;
+    font-size: 25px;
+  }
+
+  .learning-head p {
+    font-size: 16px;
+  }
+
+  .learning-text {
+    padding: 0 30px;
+  }
+
+  .learning-text h1 {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .learning-text p {
+    font-size: 14px;
+  }
+
+  .testimonial-div {
+    width: 100%;
+    height: auto;
+    padding: 0 0 90px 0;
+  }
+
+  .review-box {
+    display: block;
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .review-img {
+    display: none;
+  }
+
+  .user-box {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    left: 130px;
+    bottom: -50px;
+  }
+
+  .user-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .review-words {
+    width: 80%;
+  }
+
+  .meet-staff {
+    font-size: 25px;
+  }
+
+  .staff-card {
+    padding: 10px 0;
+    width: 50%;
+  }
+
+  .news-letter {
+    width: auto;
+    height: 70vh;
+  }
+
+  .nl-top {
+    height: 20vh;
+    padding-bottom: 15px;
+  }
+
+  .nl-input {
+    width: 75%;
+    height: 30px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding-left: 80px;
+    border-radius: 8px;
+  }
+
+  .nl-input:focus {
+    border: 1px solid #286e1c;
+  }
+
+  .left-icon {
+    position: absolute;
+    color: #286e1c;
+    font-size: 20px;
+    left: 5rem;
+    top: 12px;
+  }
+
+  .nl-middle {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+  }
+
+  .nl-footer {
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    background: #286e1c;
+  }
+
+  .top-footer {
+    padding-top: 30px;
+  }
+
+  .down-footer {
+    padding-top: 17px;
+  }
+}
+
+/*SAMSUNG S9 PLUS 320 */
+@media (max-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    left: -15px;
+    width: auto;
+    position: relative;
+    padding-bottom: 10px;
+    width: auto;
+  }
+
+  .logo {
+    position: absolute;
+    left: 22px;
+    width: 60px;
+    top: -1px;
+  }
+
+  .slogan {
+    font-size: 12px;
+    position: absolute;
+    transform: translateY(-11px);
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .home {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    height: 21vh;
+  }
+
+  .pix {
+    height: 230px;
+  }
+
+  .center-logo {
+    width: 120px;
+    position: absolute;
+    transform: translateY(42px);
+    left: 100px;
+  }
+
+  .event,
+  .portal,
+  .life {
+    width: 30%;
+    height: 135px;
+    margin: 10px auto;
+    border-radius: 8px;
+    font-size: 9px;
+    line-height: 1.4rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .about-us {
+    width: auto;
+    height: 74vh;
+    margin: 0;
+    padding-top: 4px;
+  }
+
+  .logo-div {
+    display: none;
+  }
+
+  .about {
+    width: auto;
+    padding: 25px 20px;
+    margin: 0;
+    height: 0;
+  }
+
+  .about h2 {
+    font-size: 24px;
+    padding-top: 0;
+  }
+
+  .about-text {
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .amv {
+    font-size: 12px;
+    gap: 15px;
+    padding-top: 10px 10px;
+  }
+
+  .amv::before {
+    position: absolute;
+    content: "";
+    top: 76px;
+    width: 280px;
+    height: 1px;
+    background: #286e1c;
+  }
+
+  .vision-div {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .learning-head {
+    width: 100%;
+    height: 19vh;
+    padding: 10px 10px;
+  }
+
+  .learning-head h1 {
+    padding-top: 17px;
+    font-family: cursive;
+    color: #f7e945;
+    font-size: 25px;
+  }
+
+  .learning-head p {
+    font-size: 14px;
+  }
+
+  .learning-text {
+    padding: 0 30px;
+  }
+
+  .learning-text h1 {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .learning-text p {
+    font-size: 14px;
+  }
+
+  .testimonial-div {
+    width: 100%;
+    height: auto;
+    padding: 0 0 90px 0;
+  }
+
+  .review-box {
+    display: block;
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .review-img {
+    display: none;
+  }
+
+  .user-box {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    left: 130px;
+    bottom: -50px;
+  }
+
+  .user-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .review-words {
+    width: 80%;
+  }
+
+  .meet-staff {
+    font-size: 25px;
+  }
+
+  .staff-card {
+    padding: 10px 0;
+    width: 50%;
+  }
+
+  .news-letter {
+    width: auto;
+    height: 85vh;
+  }
+
+  .nl-top {
+    height: 25vh;
+    padding-bottom: 15px;
+  }
+
+  .nl-input {
+    width: 80%;
+    height: 30px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 8px;
+  }
+
+  .nl-input:focus {
+    border: 1px solid #286e1c;
+  }
+
+  .left-icon {
+    position: absolute;
+    color: #286e1c;
+    font-size: 20px;
+    left: 4rem;
+    top: 12px;
+  }
+
+  .nl-middle {
+    text-align: center;
+    width: 100%;
+    height: 35vh;
+  }
+
+  .nl-footer {
+    text-align: center;
+    width: 100%;
+    height: 25vh;
+    background: #286e1c;
+  }
+
+  .top-footer {
+    padding-top: 30px;
+  }
+
+  .down-footer {
+    padding-top: 17px;
   }
 }

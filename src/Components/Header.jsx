@@ -19,10 +19,13 @@ import headerImg from "../Images/header-img.jpg";
 import eventImg from "../Images/event-img.jpg";
 import lifeImg from "../Images/life-img.jpg";
 import event2Img from "../Images/event2Img.jpg";
+import primaryImg from "../Images/primaryImg.jpg";
+import afterImg from "../Images/afterImg.jpg";
+import checheImg from "../Images/crecheImg.jpg";
 import reviewImg from "../Images/review-img.jpg";
 import teacher1 from "../Images/teacher1.jpg";
-import teacher2 from "../Images/teacher2.jpg";
-import teacher3 from "../Images/teacher3.jpg";
+import raymondImg from "../Images/raymondImg.jpg";
+import funmiImg from "../Images/funmiImg.jpg";
 import teacher4 from "../Images/teacher4.jpg";
 
 const Header = () => {
@@ -243,8 +246,8 @@ const Header = () => {
             have at the School. The task of a modern educator is not to cut down
             jungles but to irrigate deserts.
           </p>
-          <h5 className="dir-name">MRS. JOY ANYASI</h5>
-          <p className="dir-title">General Director</p>
+          <h5 className="dir-name">MRS. JOY EKENE ANYASI</h5>
+          <p className="dir-title">Director</p>
         </div>
         <div className="msg-images">
           <div className="tall-img">
@@ -285,7 +288,7 @@ const Header = () => {
         <div className="learning-programs">
           <div className="cards">
             <div className="card">
-              <img src={event2Img} alt="" className="course-img" />
+              <img src={checheImg} alt="" className="course-img" />
               <div className="terms">
                 <h2 className="course">CRECHE</h2>
                 <p className="course-text">
@@ -305,7 +308,7 @@ const Header = () => {
               </div>
             </div>
             <div className="card">
-              <img src={event2Img} alt="" className="course-img" />
+              <img src={primaryImg} alt="" className="course-img" />
               <div className="terms">
                 <h2 className="course">PRIMARY</h2>
                 <p className="course-text">
@@ -315,7 +318,7 @@ const Header = () => {
               </div>
             </div>
             <div className="card">
-              <img src={event2Img} alt="" className="course-img" />
+              <img src={afterImg} alt="" className="course-img" />
               <div className="terms">
                 <h2 className="course">AFTER SCHOOL</h2>
                 <p className="course-text">
@@ -329,7 +332,7 @@ const Header = () => {
       </div>
 
       <div className="why-chose-us">
-        <h2 className="why-h2">WHY CHOSE IVAN ELITE</h2>
+        <h2 className="why-h2">WHY CHOOSE IVAN ELITE</h2>
         <div className="why-text">A choice that makes a difference</div>
         <div className="why-row">
           <div className="why-grid">
@@ -389,8 +392,8 @@ const Header = () => {
               <img src={reviewImg} alt="" className="user-img" />
             </div>
             <div className="review-words">
-              <h2 className="username">Mrs Kemi Jare</h2>
-              <p className="parent">Parent/Guardian</p>
+              <h2 className="username">Mrs E. Amedu</h2>
+              <p className="parent">Guardian</p>
             </div>
           </div>
         </div>
@@ -408,7 +411,15 @@ const Header = () => {
             </div>
           </div>
           <div className="staff-card">
-            <img src={teacher2} alt="" className="staff-profile" />
+            <img src={raymondImg} alt="" className="staff-profile" />
+            <div className="staff-name-div">
+              <h2>
+                <span className="staff-name">Mr Raymond</span>
+              </h2>
+            </div>
+          </div>
+          <div className="staff-card">
+            <img src={funmiImg} alt="" className="staff-profile" />
             <div className="staff-name-div">
               <h2>
                 <span className="staff-name">Mrs Funmi</span>
@@ -416,18 +427,10 @@ const Header = () => {
             </div>
           </div>
           <div className="staff-card">
-            <img src={teacher3} alt="" className="staff-profile" />
-            <div className="staff-name-div">
-              <h2>
-                <span className="staff-name">Mrs Etiko</span>
-              </h2>
-            </div>
-          </div>
-          <div className="staff-card">
             <img src={teacher4} alt="" className="staff-profile" />
             <div className="staff-name-div">
               <h2>
-                <span className="staff-name">Mrs Obikaonor</span>
+                <span className="staff-name">Mrs Chijioke</span>
               </h2>
             </div>
           </div>
