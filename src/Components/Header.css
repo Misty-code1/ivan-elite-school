@@ -853,7 +853,7 @@
   }
 
   .mission-section {
-    display: block;
+    display: none;
     width: auto;
     height: auto;
     padding: 0 10px 40px 0;
@@ -1356,9 +1356,8 @@
     background: #286e1c;
   }
 
-  .vision-div {
-    width: 100%;
-    padding-top: 20px;
+  .mission-section {
+    display: none;
   }
 
   .learning-head {
@@ -1595,9 +1594,8 @@
     background: #286e1c;
   }
 
-  .vision-div {
-    width: 100%;
-    padding-top: 20px;
+  .mission-section {
+    display: none;
   }
 
   .learning-head {
