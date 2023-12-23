@@ -5,11 +5,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-.yellowtop {
-  background: #f7e945;
-  height: 7vh;
-}
-
 .navbar {
   width: 100%;
   position: relative;
@@ -22,8 +17,8 @@
 
 .navbar span {
   position: absolute;
-  color: brown;
-  top: 50px;
+  color: rgb(171, 49, 49);
+  top: 55px;
   font-weight: 700;
 }
 
@@ -43,11 +38,6 @@
   width: 60px;
   top: 8px;
   left: 25px;
-}
-
-.toggler {
-  color: #000;
-  width: 80px;
 }
 
 .nav-list {
@@ -110,10 +100,10 @@
 }
 
 .center-logo {
-  width: 98%;
-  left: 110px;
+  width: 25%;
+  left: 35rem;
   position: absolute;
-  top: -55px;
+  top: -45px;
 }
 
 .about-us {
@@ -751,8 +741,12 @@
     transform: translateY(-15px);
   }
 
-  .toggler {
-    display: none;
+  .navbar .toggler {
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
   }
 
   .nav-list {
@@ -779,7 +773,7 @@
   .center-logo {
     width: 150px;
     position: absolute;
-    transform: translateY(50px);
+    transform: translateY(40px);
     left: 140px;
   }
 
